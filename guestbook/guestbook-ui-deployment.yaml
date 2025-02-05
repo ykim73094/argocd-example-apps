@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: 
+      - image: ykim73094/aks-test:latest
         name: guestbook-ui
         imagePullPolicy: Always
         ports:
