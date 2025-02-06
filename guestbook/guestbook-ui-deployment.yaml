@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: ykim73094/aks-test:latest
+      - image: ykim73094/aks-test:1738817475
         name: guestbook-ui
         ports:
         - containerPort: 80
